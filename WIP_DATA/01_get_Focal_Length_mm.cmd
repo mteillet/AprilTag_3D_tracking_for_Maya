@@ -1,0 +1,1 @@
+AprilTools-master\bin\apriltools.exe --path "C:\Users\MARTIN_FIXE\Documents\maya\scripts\testAnim" --focal-length-pixels 622.54 --tag-size 164.5 > FocalLength.txt

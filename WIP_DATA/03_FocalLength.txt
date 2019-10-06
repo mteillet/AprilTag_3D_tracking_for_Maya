@@ -1,0 +1,91 @@
+
+
+INFO: sensor width was not specified, defaulting to 36.0 mm.
+
+searching for files...
+Found 81 valid files in the specified directory.
+Processed 1/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 2/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 3/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 4/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 5/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 6/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 7/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 8/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 9/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 10/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 11/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 12/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 13/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 14/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 15/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 16/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 17/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 18/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 19/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 20/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 21/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 22/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 23/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 24/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 25/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 26/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 27/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 28/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 29/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 30/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 31/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 32/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 33/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 34/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 35/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 36/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 37/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 38/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 39/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 40/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 41/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 42/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 43/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 44/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 45/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 46/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 47/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 48/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 49/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 50/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 51/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 52/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 53/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 54/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 55/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 56/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 57/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 58/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 59/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 60/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 61/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 62/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 63/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 64/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 65/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 66/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 67/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 68/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 69/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 70/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 71/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 72/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 73/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 74/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 75/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 76/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 77/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 78/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 79/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 80/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+Processed 81/81 files, out of which 0 blurry (?) and 0 were unusable (no tag found).
+
+Focal length: 35.02 mm (622.54 px); sensor width: 36.00 mm
+Camera track saved to: C:\Users\MARTIN_FIXE\Documents\maya\scripts\testAnim/track.txt
+Open Blender and go to file-> import -> Apriltools tracking data (install the plugin if you haven't already) to import the tracking data.
