@@ -1,1 +1,0 @@
-AprilTools-master\bin\apriltools.exe --path "C:\Users\MARTIN_FIXE\Documents\maya\scripts\testVideo" --estimate-focal-length > estimFocalLength.txt

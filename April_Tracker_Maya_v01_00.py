@@ -43,7 +43,7 @@ def main():
 
     ####            Ask for the lens and the camera sensor size before running           ####
     cmds.separator(style = "none" )
-    cmds.button(label = "Expert tracking", command = 'inputLensCensorSize()')
+    cmds.button(label = "Manual settings", command = 'inputLensCensorSize()')
     
     cmds.separator( height = 40 )
     cmds.separator( height = 40 )
