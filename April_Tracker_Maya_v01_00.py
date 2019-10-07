@@ -59,17 +59,19 @@ def main():
 # Function registering the images' directory path and removing useless characters
 def updateFolderPath():
     realProject = cmds.workspace( q=True, rootDirectory=True )
-    print(realProject)
     chosenFileList = cmds.fileDialog2(fm=3, ds=1, cap="Open", ff='Directory' ,okc="Select directory", hfe=0)
     chosenFileString = str(chosenFileList)
     chosenFileString = (chosenFileString[3:])
     chosenFileString = (chosenFileString[:-2])
-    print (chosenFileString)
     cmds.textField('PickDirectory', edit=1, text=chosenFileString)
     cmds.workspace( realProject, o=True )
     return (chosenFileString)
 
 def inputLensCensorSize():
+    realProject = cmds.workspace( q=True, rootDirectory=True )
+
+
+
     resultLens = cmds.promptDialog( title = "Focal Length in mm", message = "Input the focal lenght of you cam (mm). If you cancel the value will default to a 35mm", button = ['OK', 'Cancel'], defaultButton = 'OK', cancelButton = 'Cancel', dismissString = 'Cancel')
     if resultLens == 'OK':
         lensMM =  cmds.promptDialog(query=True, text=True)
@@ -81,9 +83,31 @@ def inputLensCensorSize():
         sensor =  cmds.promptDialog(query=True, text=True)
     else:
         sensor = 35
-    
-    print (lensMM)
-    print (sensor)
+
+    #Need to run
+    # "apriltools.exe --path "PATH_TO_THE_FOLDER_WITH_THE_IMAGE_SEQUENCE_INSIDE" --focal-length-mm FOCAL_LENGTH_IN_MILLIMETERS --sensor-width SENSOR_WIDTH_IN_MILLIMETERS"
+
+    #Create a folder where we can create the tracking tools
+    dataPath = realProject + "cache/AprilTag_Tracking"
+    dataPath = (dataPath.replace("/", "\\"))
+    try :
+        os.mkdir(dataPath)
+    except OSError as error:
+        print("folder already exists")
+
+    dataPath2 = realProject + "cache/AprilTag_Tracking/.currentFootagePath.txt"
+    with open (dataPath2, "r") as footagePathTxt:
+        data = footagePathTxt.readlines()
+    footagePath = str(data[0])
+
+    #Getting the username and setting the path to AprilTools
+    username = getpass.getuser()
+    AprilToolsExePath = "C:\\Users\\" + (username) + "\\Documents\\maya\\scripts\\AprilTools-master\\bin\\apriltools.exe"
+
+    manualCommand = (AprilToolsExePath) + " --path " + '"' + (footagePath) + '"' + " --focal-length-mm " + (lensMM) + " --sensor-width " + (sensor)
+
+    os.system(manualCommand)
+
 
 def lensAllEstimations():
     runFocEstim()
@@ -92,7 +116,6 @@ def lensAllEstimations():
 # April Track creates bat for camera px estimation
 def updateFocEstimation(chosenFileString):
     # Check if the directory path has been selected
-    print (chosenFileString)
     if chosenFileString is None:
         cmds.error( "You need to set the directory path" )
     else:
@@ -110,9 +133,7 @@ def updateFocEstimation(chosenFileString):
         #Getting the username and setting the path to AprilTools
         username = getpass.getuser()
         AprilToolsExePath = "C:\\Users\\" + (username) + "\\Documents\\maya\\scripts\\AprilTools-master\\bin\\apriltools.exe"
-        print(AprilToolsExePath)
 
-        
 
         #Create a file that will run the focal-length estimation
         createFocEstim = dataPath + "\\00_focalLengthEstimation.bat"
@@ -128,7 +149,6 @@ def updateFocEstimation(chosenFileString):
         modFocEstim.write(str(string))
 
         execFocEstim = createFocEstim.replace('\\', '\\\\')
-        print(execFocEstim)
         
         # Write the path to the footage in a file
         createFootageFile = dataPath + "\\.currentFootagePath.txt"
@@ -164,8 +184,6 @@ def getLensMM():
     mmPxSplit = (mmPxLine.split("--focal-length-pixels "))
     mmPxSplit = (mmPxSplit[1].split(' --tag-size'))
     mmPxValue = float(mmPxSplit[0])
-
-    print(mmPxValue)
 
     #Opening the file containing the path to the footage path
     dataPath2 = projectPath + "cache/AprilTag_Tracking/.currentFootagePath.txt"
@@ -239,21 +257,11 @@ def AprilTrack_Solver():
     
     current = 0
 
-    
     #Setting the Camera's focal length
     cmds.setAttr("April_Track_Cam_1Shape1.focalLength", float(focal[0]))
     
-    
     #Going to the first Frame and setting the frame counter (current)
     cmds.currentTime(current)
-    
-
-
-    ###     Test printing some values
-    #print(trackList[1])
-    #print (sublistsContainer[1][1])
-    #test = float(sublistsContainer[1][1]) 
-
 
     #Loop to set the position and rotation of the camera
 
